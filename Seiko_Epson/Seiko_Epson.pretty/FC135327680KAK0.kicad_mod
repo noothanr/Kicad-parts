@@ -1,0 +1,233 @@
+(footprint "FC135327680KAK0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FC-135 32.7680KA-K0-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "740c0696-086a-48b5-b5a6-d207ff7d61ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FC135327680KAK0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae72edf5-16fb-4dc4-bc8b-06d21b252534")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/97/1/FC_255_en.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d5cdb6-9d21-4e65-9c25-b89a6e1467f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Seiko Epson SMD Crystall Oscillator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd3b3a67-25f9-4e3d-b681-1646390ad90a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -0.1)
+		(end -2.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c0c10c7-016c-42ee-81ca-f302a5414482")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91bd4938-7066-4378-be26-0073411e606c")
+	)
+	(fp_line
+		(start -0.4 -0.75)
+		(end 0.4 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91dc0d44-fdd0-4ab1-85d5-7ba0cf8f7238")
+	)
+	(fp_line
+		(start -0.4 0.75)
+		(end 0.4 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceac993a-80f2-4e4e-8f8d-c1d7f9a05344")
+	)
+	(fp_arc
+		(start -2.2 -0.1)
+		(mid -2.15 -0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2499763-9490-4b19-abaf-5e22a0569f85")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.25 -0.05)
+		(end -2.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4d3972e-3dcf-49ed-bb5b-a8d0a4487257")
+	)
+	(fp_line
+		(start -2.75 -1.9)
+		(end 2.75 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86467fa5-65dd-471f-b28c-f0c425f8f92f")
+	)
+	(fp_line
+		(start -2.75 1.9)
+		(end -2.75 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff3e76f6-f58e-4531-b809-e14675c0dea1")
+	)
+	(fp_line
+		(start 2.75 -1.9)
+		(end 2.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0db7048a-2b8e-4ebf-aeef-4d1d96fa71aa")
+	)
+	(fp_line
+		(start 2.75 1.9)
+		(end -2.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86403216-9ae1-41dc-80e9-8d89244e9869")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcb8219b-7dac-4c7d-8c88-307e981ee43c")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23757634-bb7f-453e-851d-10420024c3d5")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a55dd41-f5dc-47fc-9565-bb3b06469d07")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "875339c3-2090-412a-b0f4-af3f6f61ee30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5509d64f-a4f9-49d6-b6b6-5bca153ae4dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "277a3045-c8ea-4c71-858e-0565e37b32e4")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75e63645-0c95-46ef-84b2-9ee6a2edd778")
+	)
+	(embedded_fonts no)
+	(model "/home/rathnadhar/Kaaryagaara/internal/hardware/kicad_parts/3D/FC-135_32.7680KA-K0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
