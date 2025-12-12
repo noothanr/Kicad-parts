@@ -6,7 +6,7 @@
 	(descr "0603 (1608) T=0.8±0.2mm")
 	(tags "Inductor")
 	(property "Reference" "L**"
-		(at 0 0 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "748affc8-aa18-41ce-b721-dbaeab3f1b32")
 		(effects
@@ -63,45 +63,27 @@
 		(layer "F.SilkS")
 		(uuid "e13a541d-9320-45b0-b651-de9083cdbcb3")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.5 -0.75)
-		(end 1.5 -0.75)
+		(end 1.525 0.75)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "d940ed85-1702-4961-8791-42a4de5e7c9c")
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b2446ff5-f182-4905-aaf1-0e67715684fb")
 	)
-	(fp_line
-		(start -1.5 0.75)
-		(end -1.5 -0.75)
+	(fp_rect
+		(start -1.55 -0.8)
+		(end 1.575 0.825)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "312aa0e0-94b5-4bc0-815a-3312230692d3")
-	)
-	(fp_line
-		(start 1.5 -0.75)
-		(end 1.5 0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ed3211b3-bb61-474c-bec3-0d99463ea0bd")
-	)
-	(fp_line
-		(start 1.5 0.75)
-		(end -1.5 0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2ae14f69-3328-4b0d-bc4f-689e257495dc")
+		(uuid "688a1991-c55e-4813-a91f-cc521a93b19c")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -167,7 +149,7 @@
 		(uuid "3eea640f-d356-4f7f-967f-869a89850105")
 	)
 	(embedded_fonts no)
-	(model "/home/rathnadhar/kaaryagaara/kicad_parts/Murata/3D/LQW18ANR27J00D.stp"
+	(model "/home/rotary_gulmohar/kaaryagaara/kicad_parts/Murata/3D/LQW18ANR27J00D.stp"
 		(offset
 			(xyz 0 0 0)
 		)
